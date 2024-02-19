@@ -7,15 +7,105 @@
     <meta name="author" content="Milton Palmeira">
     <meta name="keywords" content="currículo, emprego, serviço">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Portifólio Milton Palmeira</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #5b6069;
+            color: #3f3f3f;
+            font-family: 'Roboto';
+            margin: 10px;
+            /*background-image: url('img/mysterion.png');
+            background-repeat: no-repeat;
+            background-size: 900px;*/
+        }
+
+        header {
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            color: #ffffff;
+            font-family: 'Fredoka One', cursive;
+            font-size: 55px;
+            text-align: center;
+            text-shadow: 3px 3px 4px #000;
+        }
+
+        header figure {
+            border: 2px solid #fff;
+            width: 250px;
+            height: 250px;
+            border-radius: 120px;
+            margin: 0 auto;
+            overflow: hidden;
+            box-shadow: 1px 1px 7px #000;
+        }
+
+        header figure img {
+            width: 210px;
+        }
+
+        header nav {
+            text-align: center;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        header nav a:hover {
+            background-color: #000;
+            text-decoration: underline;
+        }
+
+        section, footer, aside {
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+            background-color: rgba(167, 176, 177, 0.315);
+            border-radius: 10px;
+        }
+
+        section ul {
+            list-style: none;
+        }
+
+        section li {
+            margin-left: -40px;
+        }
+
+        aside {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <header>
+        <figure>
+            <img src="img/mysterion.png" alt="Foto do perfil">
+        </figure>
         <h1>Milton Palmeira Santana</h1>
+        <nav>
+            <a href="#dados-pessoais">Dados Pessoais</a>
+            <a href="#historico-academico">Histórico Acadêmico</a>
+            <a href="#historico-profissional">Histórico Profissional</a>
+            <a href="#objetivo-profissional">Objetivo Profissional</a>
+        </nav>
     </header>
 
-    <section>
+    <section id="dados-pessoais">
         <h2>Dados Pessoais</h2>
         <ul>
             <li>E-mail:
@@ -33,26 +123,33 @@
         </ul>
     </section>
 
-    <section>
+    <section id="historico-academico">
         <h2>Histórico Acadêmico</h2>
-        <ol type="I">
+        <ul>
             <li>Formação: Pós graduação em Business intelligence, big data e analytics - ciência de dados</li>
             <li>Formação: Engenharia de Sistemas - ESAB</li>
             <li>Cursos: Diversos Cursos no SENAC</li>
-        </ol>
+        </ul>
     </section>
 
-    <section>
+    <section id="historico-profissional">
         <h2>Histórico Profissional</h2>
         <ul>
             <li>SENAC - Instrutor áreas de Desenvolvimento de Banco de dados</li>
         </ul>
     </section>
 
-    <section>
+    <section id="objetivo-profissional">
         <h2>Objetivo Profissional</h2>
         <p>Desenvolvedor de Sistemas</p>
     </section>
+
+    <aside>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LaB0YDU8kws?si=Iw3H-EQS4Q9qQxMO"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </aside>
 
     <footer>
         &COPY; Todos os direitos reservados
